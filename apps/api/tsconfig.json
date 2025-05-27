@@ -5,16 +5,24 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@formulate/shared-types": ["../../packages/shared-types/src"]
+    }
   },
   "include": [
     "**/*.ts",
     "**/*.tsx",
     "next-env.d.ts",
     "next.config.js",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "../../packages/shared-types/src/**/*.ts"
   ],
-  "exclude": [
-    "node_modules"
+  "exclude": ["node_modules"],
+  "references": [
+    {
+      "path": "../../packages/shared-types/"
+    }
   ]
 }

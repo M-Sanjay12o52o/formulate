@@ -1,5 +1,5 @@
 {
-  "name": "docs",
+  "name": "api",
   "version": "0.1.0",
   "type": "module",
   "private": true,
@@ -11,6 +11,7 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
+    "@formulate/shared-types": "workspace:^",
     "@repo/ui": "workspace:*",
     "next": "^15.3.0",
     "react": "^19.1.0",

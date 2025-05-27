@@ -1,6 +1,11 @@
 // This file will hold your common TypeScript types.
 // For example, the types for the user-defined form fields.
 
+export type Message = {
+  text: string;
+  timestamp: Date;
+};
+
 export type UserDefinedField = {
   id: string;
   name: string;

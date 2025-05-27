@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "composite": true, // Essential for monorepos with project references
+    "declaration": true, // Generates .d.ts files for sharing types
+    "outDir": "dist",
+    "strict": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["esnext"],
+    "baseUrl": "."
+  },
+  "include": ["src/**/*.ts"], // We'll put our types in a 'src' folder
+  "exclude": ["node_modules"]
+}

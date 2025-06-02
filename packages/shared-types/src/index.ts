@@ -20,3 +20,11 @@ export type FormConfig = {
   description?: string;
   fields: UserDefinedField[];
 };
+
+export type Field = {
+  id: string;
+  name: string;
+  type: string;
+  options?: string | null;
+  required: boolean;
+};

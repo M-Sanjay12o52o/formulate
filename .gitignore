@@ -5,6 +5,11 @@ node_modules
 .pnp
 .pnp.js
 
+NOTES.md
+TODO.md
+FEATURES.md
+PRODUCTION.md
+
 # Local env files
 .env
 .env.local
